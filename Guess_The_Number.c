@@ -9,7 +9,7 @@ int main(){
     srand(time(0));
 
     random_number=rand()%100+1;
-    // printf("The number is %d\n",random_number);
+   
     do{
         printf("Guess the number between 1-100\n");
         scanf("%d",&guess_the_number);
